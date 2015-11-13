@@ -1,0 +1,50 @@
+!!!
+%html
+  %head
+    %meta(charset="utf-8")
+    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+
+    %title= current_page.data.title || "The Middleman"
+
+    = stylesheet_link_tag "normalize", "all"
+    = javascript_include_tag  "all"
+
+  %body{class: page_classes}
+    %header
+      %nav{class: "navbar navbar-default navbar-no-margin"}
+        .container-fluid
+          .navbar-header
+            %button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            %a.navbar-brand{href: "/"} skäbu
+          %div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+            %ul(class="nav navbar-nav navbar-right")
+              %li
+                = link_to 'Products', '/products.html'
+              %li
+                = link_to 'About Us', '/about.html'
+              %li
+                = link_to 'Ingredients', '/ingredients.html'
+              %li
+                %a(href="#") Blog
+    = yield
+
+    %footer(class="footer-main")
+      .container
+        %ul(class="list-inline")
+          %li Copyright 2015 Alloy Brands LLC
+          %li
+            = link_to 'Home', '/index.html'
+          %li
+            = link_to 'Products', '/products.html'
+          %li
+            = link_to 'About Us', '/about.html'
+          %li
+            = link_to 'Ingredients', '/ingredients.html'
+          %li
+            %a(href="#") Blog
+          %li
+            %a(href="#") Contact Us
