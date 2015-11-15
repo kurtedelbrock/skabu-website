@@ -2,4 +2,27 @@
 title: skäbu - products
 ---
 
-Products page
+.container
+  %br
+  %ol.breadcrumb
+    %li
+      = link_to 'Home', '/index.html'
+    %li.active Products
+.jumbotron
+  .container
+    %div(class="jumbrotron-image col-md-4")
+      = image_tag 'products/skabu-shampoo-highres.jpeg', width: '208', height: '500', class: 'center-block'
+    %div(class="jumbrotron-text col-md-8")
+      %h2 Argan Oil and Algae Replenishing Shampoo
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      %a(href="#" class="btn btn-success") Buy From Amazon
+      %a(href="#" class="btn btn-default") Learn More
+%div(class='jumbotron jumbotron-omega')
+  .container
+    %div(class="jumbrotron-image col-md-4")
+      = image_tag 'products/skabu-conditioner-highres.jpeg', width: '208', height: '500', class: 'center-block'
+    %div(class="jumbrotron-text col-md-8")
+      %h2 Argan Oil and Algae Replenishing Conditioner
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      %a(href="#" class="btn btn-success") Buy From Amazon
+      %a(href="#" class="btn btn-default") Learn More

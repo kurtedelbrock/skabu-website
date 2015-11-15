@@ -11,8 +11,9 @@
   background-color: white;
   border-bottom: 1px solid #eee;
 }
-.jumbrotron-image {
-  @extend .col-md-6;
+
+.jumbotron-omega {
+  border-bottom: 0px;
 }
 
 footer.footer-main {
