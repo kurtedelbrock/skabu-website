@@ -1,3 +1,28 @@
 ---
 title: skäbu - ingredients
 ---
+
+.container
+  %br
+  %ol.breadcrumb
+    %li
+      = link_to 'Home', '/index.html'
+    %li.active Ingredients
+.jumbotron
+  .container
+    %div(class="jumbrotron-image col-md-3")
+      = image_tag 'http://www.placehold.it/200x200', width: '200', height: '200', class: 'center-block'
+    %div(class="jumbrotron-text col-md-9")
+      %h2
+        Argan Oil
+        %small Moisturize and Protect
+      %p.lead Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+%div(class='jumbotron jumbotron-omega')
+  .container
+    %div(class="jumbrotron-image col-md-9")
+      %h2
+        Algae
+        %small 50,000x Vitamin E
+      %p.lead Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    %div(class="jumbrotron-text col-md-3")
+      = image_tag 'http://www.placehold.it/200x200', width: '200', height: '200', class: 'center-block'
