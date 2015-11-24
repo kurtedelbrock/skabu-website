@@ -1,3 +1,10 @@
+require 'builder'
+
+###
+# XML Sitemap
+###
+page "/sitemap.xml", :layout => false
+
 ###
 # Compass
 ###

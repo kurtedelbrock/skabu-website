@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 
 # Middleman resources
 gem "middleman", "~>3.4.0"
-gem 'middleman-gh-pages'
+gem "middleman-gh-pages"
+gem "builder"
 
 gem "bootstrap-sass", :require => false
 
