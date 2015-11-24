@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-no-margin {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+}
+
+.jumbotron-omega {
+  border-bottom: 0px;
+}
+
+footer.footer-main {
+  border-top: 1px solid #eee;
+  padding: 20px 0px;
+}
