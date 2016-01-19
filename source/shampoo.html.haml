@@ -23,7 +23,8 @@ seo_description: 'Skäbu offers a luxurious Organic Argan Oil + Algae Replenishi
 .jumbotron(style="border-bottom: 0px;")
   .container
     %div(class="jumbrotron-image col-md-4")
-      = image_tag 'products/skabu-shampoo-highres.jpeg', width: '208', height: '500', class: 'center-block'
+      %script(async defer data-pin-hover="true" data-pin-color="red" data-pin-tall="true" src="//assets.pinterest.com/js/pinit.js")
+      = image_tag 'products/skabu-shampoo-highres.jpeg', width: '208', height: '500', class: 'center-block', :"data-pin-media" => 'images/pinterest/skabu-shampoo-front.jpg'
     %div(class="jumbrotron-text col-md-8")
       %h2 Organic Argan Oil + Algae Replenishing Shampoo
       %p.lead
