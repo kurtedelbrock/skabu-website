@@ -6,6 +6,17 @@ require 'builder'
 page "/sitemap.xml", :layout => false
 
 ###
+# Blog
+###
+
+activate :blog do |blog|
+  blog.sources = "posts/"
+  blog.permalink = "{title}.html"
+end
+
+activate :directory_indexes
+
+###
 # Compass
 ###
 
