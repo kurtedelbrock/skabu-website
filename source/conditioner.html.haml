@@ -1,0 +1,43 @@
+---
+title: 'Organic Argan Oil + Algae Replenishing Conditioner - Skäbu'
+seo_title: 'Skäbu - Our Products'
+seo_description: 'Skäbu offers a luxurious Organic Argan Oil + Algae Replenishing Conditioner'
+---
+
+- content_for :opengraph do
+  %meta(property="og:type" content="product")
+  %meta(property="og:title" content="Skäbu Organic Argan Oil + Algae Replenishing Conditioner")
+  %meta(property="og:description" content="Age-defying conditioner promotes hair growth.")
+  %meta(property="og:url" content="http://www.skabuorganics.com/conditioner.html")
+  %meta(property="og:site_name" content="Skäbu Organics")
+  %meta(property="og:price:amount" content="19.27")
+  %meta(property="og:price:currency" content="USD")
+  %meta(property="og:availability" content="instock")
+
+.container
+  %br
+  %ol.breadcrumb
+    %li
+      = link_to 'Home', '/index.html'
+    %li.active Products
+.jumbotron(style="border-bottom: 0px;")
+  .container
+    %div(class="jumbrotron-image col-md-4")
+      %script(async defer data-pin-hover="true" data-pin-color="red" data-pin-tall="true" src="//assets.pinterest.com/js/pinit.js")
+      = image_tag 'products/skabu-conditioner-highres.jpeg', width: '208', height: '500', class: 'center-block'
+    %div(class="jumbrotron-text col-md-8")
+      %h2 Organic Argan Oil + Algae Replenishing Conditioner
+      %p.lead
+        %i Age-defying conditioner promotes hair growth.
+        %p.lead
+          Gain anti-aging benefits from
+          = link_to 'organic sesame oil', '/ingredients.html#sesame-oil'
+          and
+          = link_to 'organic jojoba seed oil.', '/ingredients.html#jojoba-oil'
+          Replenish with anti-oxidants and reduce hair loss naturally with
+          = link_to 'loose-leaf Japanese green tea extract.', '/ingredients.html#green-tea'
+          Get volumious, shiny hair without harmful chemicals.
+        %p.lead
+          = link_to 'Learn more', '/about.html'
+          about our commitment to you.
+        %a(href="http://www.amazon.com/dp/B017HRA2W4" class="btn btn-warning") Buy From Amazon

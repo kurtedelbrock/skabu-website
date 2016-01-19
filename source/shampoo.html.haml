@@ -1,0 +1,38 @@
+---
+title: 'Organic Argan Oil + Algae Replenishing Shampoo - Skäbu'
+seo_title: 'Skäbu - Our Products'
+seo_description: 'Skäbu offers a luxurious Organic Argan Oil + Algae Replenishing Shampoo'
+---
+
+- content_for :opengraph do
+  %meta(property="og:type" content="product")
+  %meta(property="og:title" content="Skäbu Organic Argan Oil + Algae Replenishing Shampoo")
+  %meta(property="og:description" content="Deeply cleans and rejuvenates hair and scalp.")
+  %meta(property="og:url" content="http://www.skabuorganics.com/conditioner.html")
+  %meta(property="og:site_name" content="Skäbu Organics")
+  %meta(property="og:price:amount" content="19.27")
+  %meta(property="og:price:currency" content="USD")
+  %meta(property="og:availability" content="instock")
+
+.container
+  %br
+  %ol.breadcrumb
+    %li
+      = link_to 'Home', '/index.html'
+    %li.active Products
+.jumbotron(style="border-bottom: 0px;")
+  .container
+    %div(class="jumbrotron-image col-md-4")
+      = image_tag 'products/skabu-shampoo-highres.jpeg', width: '208', height: '500', class: 'center-block'
+    %div(class="jumbrotron-text col-md-8")
+      %h2 Organic Argan Oil + Algae Replenishing Shampoo
+      %p.lead
+        %i Deeply cleans and rejuvenates hair and scalp.
+      %p.lead
+        We scoured the globe for the best ingredients in haircare for a single shampoo. From
+        = link_to 'Moroccan Argan Oil', '/ingredients.html#argan-oil'
+        to
+        = link_to 'Algae', '/ingredients.html#algae'
+        from the Pacific Ocean, we’ve created the ultimate formula to clean, revitalize and nourish hair.
+      %p.lead Created in a facility completely powered by wind turbines, Skäbu combines modern technology with old world herbs and essential oils.
+      %a(href="http://www.amazon.com/dp/B017HP90C4" class="btn btn-warning") Buy From Amazon

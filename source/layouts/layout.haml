@@ -6,6 +6,9 @@
     %meta{name: "title", content: current_page.data.seo_title}
     %meta{name: "description", content: current_page.data.seo_description}
     %meta{name: "p:domain_verify", content: "058a5b7452fb9c96f6b0d4a7cf6e14c9"}
+
+    = yield_content :opengraph
+
     %title= current_page.data.title || "skäbu"
 
     = stylesheet_link_tag "normalize", "all"
@@ -26,7 +29,9 @@
           %div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
             %ul(class="nav navbar-nav navbar-right")
               %li
-                = link_to 'Products', '/products.html'
+                = link_to 'Shampoo', '/shampoo.html'
+              %li
+                = link_to 'Conditioner', '/conditioner.html'
               %li
                 = link_to 'About Us', '/about.html'
               %li
@@ -40,7 +45,9 @@
           %li
             = link_to 'Home', '/index.html'
           %li
-            = link_to 'Products', '/products.html'
+            = link_to 'Shampoo', '/shampoo.html'
+          %li
+            = link_to 'Conditioner', '/conditioner.html'
           %li
             = link_to 'About Us', '/about.html'
           %li
