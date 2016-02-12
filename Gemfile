@@ -7,9 +7,6 @@ gem "middleman", "~>3.4.0"
 gem "middleman-gh-pages"
 gem "builder"
 
-# Stylesheets
-gem "bootstrap-sass", :require => false
-
 # Middleman plugins
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-blog"
