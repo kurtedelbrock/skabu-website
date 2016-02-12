@@ -16,6 +16,11 @@ end
 
 activate :directory_indexes
 
+set :partials_dir, 'partials'
+
+# Set a custom layout template for the blog theme
+page "/articles/*", layout: "article"
+
 ###
 # Compass
 ###
