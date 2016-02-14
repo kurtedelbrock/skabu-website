@@ -78,6 +78,20 @@ body.article {
     color: rgba(0, 0, 0, 0.8);
   }
 
+  h3 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  small {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.3 !important;
+    color: rgba(0, 0, 0, 0.3);
+  }
+
   p:first-child
  {
    &:first-letter {
@@ -139,7 +153,8 @@ body.article .container {
     font-weight: 400 !important;
     color: rgba(0, 0, 0, 0.6);
     font-size: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 2px !important;
+    margin-top: 16px !important;
   }
 
   p {
@@ -163,4 +178,35 @@ img.wrap-right {
   margin-top: 68px;
   margin-right: 32px;
   margin-left: -295px;
+}
+
+.chartPanel {
+  clear: both;
+  padding-top: 16px;
+
+  .chart {
+    float: left;
+    width: 446px;
+    margin-bottom: 32px;
+  }
+
+  #chartLegend {
+    float: right;
+    width: 138px;
+    height: 310px;
+    margin-bottom: 32px;
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+    ul li span {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      border-radius: 5px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+  }
 }

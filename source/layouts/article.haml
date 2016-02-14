@@ -27,6 +27,61 @@
           1. Loaded with Nutrients for Hair
         %p
           Argan oil has a naturally high percentage of fatty acids and Vitamin E. These are the top nutrients to promote healthy hair growth as it contains antioxidants, which help boost cells and encourage them to grow healthy hair. Argan oil has even been known for hair regrowth.
+        %h3
+          Argan Oil's Fatty Acid Composition (by percentage)
+        %div.chartPanel
+          .chart
+            %canvas(id="arganFatContent" width="446" height="300")
+          #chartLegend
+          &nbsp;
+        :javascript
+          var chartContext = $('#arganFatContent').get(0).getContext("2d");
+
+          var data = [
+            {
+              value: 12.7,
+              color: "rgb(199, 222, 179)",
+              highlight: "#a3c983",
+              label: "Palmitic"
+            },
+            { // Needs color
+              value: 5.83,
+              color: "rgb(194, 185, 200)",
+              highlight: "#ada1b5",
+              label: "Stearic"
+            },
+            { // Needs color
+              value: 45.6,
+              color: "rgb(215, 223, 219)",
+              highlight: "#b8c6bf",
+              label: "Oleic"
+            },
+            { // Needs color
+              value: 34.6,
+              color: "rgb(224, 216, 166)",
+              highlight: "#ccbe6b",
+              label: "Linoleic"
+            }
+          ];
+
+          var options = {
+            segmentStrokeWidth : 3,
+            percentageInnerCutout : 40,
+            animationEasing: "easeInOutQuart",
+            animateScale : true
+          }
+
+          var arganFatContentChart = new Chart(chartContext).Pie(data, options);
+          var chartLegend = arganFatContentChart.generateLegend();
+          $("#chartLegend").html(chartLegend);
+        %p
+          %small
+            %strong
+              Source:
+            Ascensión Rueda, Isabel Seiquer, Manuel Olalla, Rafael Giménez, Luis Lara, and Carmen Cabrera-Vique, “Characterization of Fatty Acid Profile of Argan Oil and Other Edible Vegetable Oils by Gas Chromatography and Discriminant Analysis,” Journal of Chemistry, vol. 2014
+        %p
+          [Talk about the importance of these fatty acids]
+
         %h2
           2. Acts as a Natural Moisturizer
         %p
@@ -53,6 +108,8 @@
           5. Undo the Damage
         %p
           Do you dye your hair? Blow dry regularly? Maybe you perm or curl your hair? Undo all the chemical treatment damage by using argan oil in your daily routine. Over time, argan oil will heal and treat environmental damage, UV rays, chemical stripping, bleaching, etc. so that your hair will regain it’s original luster and shine.
+        %p
+          %img.img-responsive.img-rounded(src="/images/articles/content/argan-damage.png")
         .callout
           %div.pin-it-callout
             %a(data-pin-do="buttonBookmark" data-pin-color="red" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/")
