@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "bourbon/bourbon";
 @import "bootstrap/dist/css/bootstrap";
+@import "fluidbox/dist/css/fluidbox.min";
 
 .navbar-no-margin {
   margin-bottom: 0;
@@ -46,15 +47,96 @@ body.article header {
   h1 {
     color: white;
     position: relative;
-    bottom: -250px;
+    bottom: -150px;
     background-color: black;
     padding: 20px;
     display: inline-block;
   }
 }
 
+body.article {
+  h2 {
+    margin-top: 64px !important;
+    margin-bottom: 16px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  p:first-child
+ {
+   &:first-letter {
+      font-family: "Arial Black", Gadget, sans-serif;
+      float: left;
+      font-size: 60px;
+      line-height: 60px;
+      padding-top: 1px;
+      padding-right: 8px;
+      padding-left: 3px;
+    }
+
+    &:first-line {
+      color: rgb(131, 170, 32);
+      font-weight: bolder;
+    }
+  }
+}
 body.article p {
   font-size: 18px;
   line-height: 31.5px;
   margin-bottom: 32px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+body.article ul {
+  margin: 0;
+  padding: 20px;
+}
+
+body.article li {
+  margin-left: 0;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  line-height: 31.5px;
+
+}
+
+body.article .container {
+  @media (min-width: 620px) {
+    width: 620px;
+  }
+}
+
+.callout {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  h3 {
+    font-weight: 400 !important;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+
+  p {
+    a {
+      font-weight: 400;
+      color: rgb(131, 170, 32) !important;
+    }
+    a:hover {
+      color: rgb(131, 170, 32) !important;
+      text-decoration: none;
+    }
+    font-size: 30px !important;
+    line-height: 45px !important;
+    color: rgb(131, 170, 32) !important;
+    font-weight: 200 !important;
+  }
+}
+
+img.wrap-right {
+  float: left;
+  padding-top: 68px;
+  margin-right: 32px;
+  margin-left: -295px;
 }

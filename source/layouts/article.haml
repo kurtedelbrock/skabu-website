@@ -36,8 +36,14 @@
           2. Acts as a Natural Moisturizer
         %p
           Argan oil is a natural moisturizer for dry and brittle hair. It heals each strand from the inside to prevent breakage and split ends.
-        %p
-          Pro Tip: Have extra dry hair? Slather your hair with Organic Argan Oil Conditioner, cover with shower cap and let it sit for 30 minutes. Rinse and repeat weekly for shiny moisturized hair.
+        .callout
+          %h3
+            Stylist Tip
+          %p
+            Have extra dry hair? Slather your hair with
+            = succeed "," do
+              = link_to "Skäbu Organic Argan Oil Conditioner", "#"
+            cover with shower cap and let it sit for 30 minutes. Rinse and repeat weekly for shiny moisturized hair.
         %h2
           3. Fights Dandruff & Dry Scalp
         %p
@@ -50,8 +56,12 @@
           5. Undo the Damage
         %p
           Do you dye your hair? Blow dry regularly? Maybe you perm or curl your hair? Undo all the chemical treatment damage by using argan oil in your daily routine. Over time, argan oil will heal and treat environmental damage, UV rays, chemical stripping, bleaching, etc. so that your hair will regain it’s original luster and shine.
-        %p
-          Pro Tip: We all know it’s a pain to buy another bottle of goo and try to remember to do another hair treatment just to get the benefits of argan oil. Adopt using argan oil as part of your beauty routine by switching to an organic argan oil shampoo and conditioner. This saves the extra step of another hair treatment, while gaining the benefits of argan oil regularly.
+        .callout
+          %h3
+            Stylist Tip
+          %p
+            We all know it’s a pain to buy another bottle of goo and try to remember to do another hair treatment just to get the benefits of argan oil. Adopt using argan oil as part of your beauty routine by switching to an organic argan oil shampoo and conditioner. This saves the extra step of another hair treatment, while gaining the benefits of argan oil regularly.
+        %img.wrap-right.img-rounded(src="/images/articles/content/argan-hair.jpg")
         %h2
           6. Tame Frizz and Poof (No One Wants to Look like a Poodle)
         %p
@@ -64,8 +74,11 @@
           8. Highly Absorbable without Greasiness
         %p
           The first concern for many people when we think about argan oil is that it might be greasy. While oil and grease might seem to go together, argan oil does just the opposite. Natural oils don’t create grease in your hair, an imbalanced PH causes many of the symptoms along with chemicals that disrupt the natural chemical balance of your scalp. Argan oil in hair leaves it soft and shiny, while all the moisture and natural minerals are absorbed into the scalp for its nutritional properties – leaving behind no residue or unabsorbed oil. So try the natural route even if you’ve been avoiding oils for fear of greasiness.
-        %p
-          Pro Tip: Washing your hair daily tends to dry out your natural oils, thus making your scalp overcompensate by creating more oil. Try going less often and using a natural dry shampoo in between washes. We recommend those with a corn starch formula and be sure to stay away from ingredients like sulfates, parabens and alcohol.
+        .callout
+          %h3
+            Stylist Tip
+          %p
+            Washing your hair daily tends to dry out your natural oils, thus making your scalp overcompensate by creating more oil. Try going less often and using a natural dry shampoo in between washes. We recommend those with a corn starch formula and be sure to stay away from ingredients like sulfates, parabens and alcohol.
         %h2
           9. Good For Skin
         %p
@@ -85,8 +98,14 @@
             Synthetic Fragrances (associated with hair loss, skin irritations, allergic reactions, some have high toxicity levels)
           %li
             Phthalates (plastic softeners that have been shown to damage liver, kidneys, lungs and reproductive systems through inhalation or skin absorbtion)
-
+        %h2
+          Bonus! Argan Oil Benefits Infographic
+        %p
+          We summarized the top 10 benefits of argan oil for you in a handy infographic. Happy sharing!
+        %a(href="/images/articles/infographics/argan-oil.jpg" class="infographic-link")
+          %img.img-responsive(src="/images/articles/infographics/argan-oil.jpg")
 :javascript
+  $(".infographic-link").fluidbox();
   var ParallaxText = function (options) {
     this.text = options.text;
     this.currentPosition = 250;
@@ -96,9 +115,9 @@
     this.render = function() {
       topView = $(document).scrollTop();
 
-      if (topView >= 200) {
-        offset = (topView - 200) * 0.2;
-        opacity = (200 - offset * 2.5) / 200;
+      if (topView >= 150) {
+        offset = (topView - 150) * 0.2;
+        opacity = (150 - offset * 2.5) / 150;
         var translation = "translateY("+offset+"px)";
         self.text.css("transform", translation);
         self.text.css("opacity", opacity);
