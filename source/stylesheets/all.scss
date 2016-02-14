@@ -127,6 +127,14 @@ body.article .container {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+  .pin-it-callout {
+    float: left;
+    position: relative;
+    margin-left: -75px;
+    margin-top: 22px;
+  }
+
   h3 {
     font-weight: 400 !important;
     color: rgba(0, 0, 0, 0.6);
@@ -152,7 +160,7 @@ body.article .container {
 
 img.wrap-right {
   float: left;
-  padding-top: 68px;
+  margin-top: 68px;
   margin-right: 32px;
   margin-left: -295px;
 }
