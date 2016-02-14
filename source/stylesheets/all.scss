@@ -35,6 +35,22 @@ body.article header {
      border-color: transparent;
   }
 
+  .navbar-right {
+    float: right !important; // Turn off responsive
+  }
+
+  .navbar-header {
+    float: left !important;
+  }
+
+  ul.navbar-nav {
+    padding: 0px;
+  }
+
+  li.nav-pin {
+    padding-top: 13px;
+  }
+
   .navbar li a {
     color: hsla(0, 0, 90, 1);
   }

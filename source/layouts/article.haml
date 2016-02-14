@@ -8,18 +8,12 @@
         %nav.navbar.navbar-default
           .container-fluid
             .navbar-header
-              %button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
-                %span(class="sr-only")
-                %span(class="icon-bar")
-                %span(class="icon-bar")
-                %span(class="icon-bar")
               %a(class="navbar-brand" href="#") skäbu
-            .collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
-              %ul.nav.navbar-nav.navbar-right
-                %li
-                  = link_to 'Shampoo', '/shampoo.html'
-                %li
-                  = link_to 'Conditioner', '/conditioner.html'
+            %ul.nav.navbar-nav.navbar-right
+              %li.nav-pin
+                %a(data-pin-do="buttonBookmark" data-pin-color="red" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/")
+                  %img
+                  &nbsp;
         .container
           %h1#article-title 10 Proven Benefits of Moroccan Argan Oil Shampoo
       .container
