@@ -1,5 +1,6 @@
 //= require_tree .
 //= require jquery/dist/jquery
+//= require bootstrap/dist/js/bootstrap.min.js
 //= require Headhesive.js/src/helpers
 //= require Headhesive.js/src/headhesive
 //= require fluidbox/dist/js/jquery.fluidbox.min
