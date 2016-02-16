@@ -195,7 +195,7 @@ section.article-content {
   p {
     a {
       font-weight: 400;
-      color: rgb(131, 170, 32) !important;
+      color: darken(rgb(131, 170, 32), 15) !important;
     }
     a:hover {
       color: rgb(131, 170, 32) !important;
