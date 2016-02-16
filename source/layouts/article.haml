@@ -9,7 +9,7 @@
         %nav.navbar.navbar-default.navbar-article
           .container-fluid
             .navbar-header
-              %a(class="navbar-brand" href="#") skäbu
+              %a(class="navbar-brand" href="/") skäbu
             %ul.nav.navbar-nav.navbar-right
               %li.nav-pin
                 %a(data-pin-do="buttonBookmark" data-pin-color="red" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/")
@@ -17,7 +17,7 @@
                   &nbsp;
         .container
           %h1#article-title 10 Proven Benefits of Moroccan Argan Oil Shampoo
-      %nav{class: "navbar navbar-default navbar-no-margin"}
+      %nav{class: "navbar navbar-default navbar-no-margin navbar-subnav"}
         .container
           .navbar-header
             %button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
@@ -206,3 +206,5 @@
   };
 
   new ParallaxText({text: $('#article-title')});
+
+  var header = new Headhesive('.navbar-subnav', {offset: '.article-content'});

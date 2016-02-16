@@ -58,6 +58,10 @@ body.article header {
     .navbar-brand {
       color: white;
       font-weight: bold;
+      &:visited {
+        color: white;
+      }
+      
     }
 
   }
@@ -70,6 +74,24 @@ body.article header {
     padding: 20px;
     display: inline-block;
   }
+}
+
+.navbar-subnav {
+  display: none;
+}
+
+.headhesive {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include transition(all 0.5s ease-in-out);
+  @include transform(translateY(-100%));
+}
+
+.headhesive--stick {
+  @include transform(translateY(0%));
 }
 
 section.article-content {

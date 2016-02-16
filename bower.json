@@ -15,6 +15,7 @@
   "dependencies": {
     "bootstrap": "~3.3.5",
     "fluidbox": "^2.0.3",
-    "Chart.js": "^1.0.2"
+    "Chart.js": "^1.0.2",
+    "Headhesive.js": "headhesive#^1.2.4"
   }
 }
