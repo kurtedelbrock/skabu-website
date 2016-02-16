@@ -29,35 +29,37 @@ body.article header {
   background-repeat: no-repeat;
   margin-bottom: 96px;
 
-  .navbar { // Make the navbar transparent for nice photo effect
-     background-color: transparent;
-     background: transparent;
-     border-color: transparent;
-  }
+  .navbar-article {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
 
-  .navbar-right {
-    float: right !important; // Turn off responsive
-  }
+    .navbar-right {
+      float: right !important; // Turn off responsive
+    }
 
-  .navbar-header {
-    float: left !important;
-  }
+    .navbar-header {
+      float: left !important;
+    }
 
-  ul.navbar-nav {
-    padding: 0px;
-  }
+    ul.navbar-nav {
+      padding: 0px;
+    }
 
-  li.nav-pin {
-    padding-top: 13px;
-  }
+    li.nav-pin {
+      padding-top: 13px;
+      padding-right: 13px;
+    }
 
-  .navbar li a {
-    color: hsla(0, 0, 90, 1);
-  }
+    .navbar li a {
+      color: hsla(0, 0, 90, 1);
+    }
 
-  .navbar-brand {
-    color: white;
-    font-weight: bold;
+    .navbar-brand {
+      color: white;
+      font-weight: bold;
+    }
+
   }
 
   h1 {
@@ -70,7 +72,7 @@ body.article header {
   }
 }
 
-body.article {
+section.article-content {
   h2 {
     margin-top: 64px !important;
     margin-bottom: 16px;
@@ -92,6 +94,27 @@ body.article {
     color: rgba(0, 0, 0, 0.3);
   }
 
+  p {
+    font-size: 18px;
+    line-height: 31.5px;
+    margin-bottom: 32px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  ul {
+    margin: 0;
+    padding: 20px;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    line-height: 31.5px;
+
+  }
+
   p:first-child
  {
    &:first-letter {
@@ -110,30 +133,12 @@ body.article {
     }
   }
 }
-body.article p {
-  font-size: 18px;
-  line-height: 31.5px;
-  margin-bottom: 32px;
-  color: rgba(0, 0, 0, 0.7);
-}
 
-body.article ul {
-  margin: 0;
-  padding: 20px;
-}
-
-body.article li {
-  margin-left: 0;
-  margin-bottom: 16px;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 18px;
-  line-height: 31.5px;
-
-}
-
-body.article .container {
-  @media (min-width: 620px) {
-    width: 620px;
+section.article-content {
+  .container {
+    @media (min-width: 620px) {
+      width: 620px;
+    }
   }
 }
 
