@@ -24,9 +24,10 @@ footer.footer-main {
 // Article Styles
 body.article header {
   height: 500px;
-  @include background-image(linear-gradient(hsla(0, 0%, 25%, 1) 0, transparent 40%), url("/images/articles/headers/argan-oil.jpg"));
+  @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg"));
   background-position: center top;
   background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 96px;
 
   .navbar-article {
@@ -61,7 +62,7 @@ body.article header {
       &:visited {
         color: white;
       }
-      
+
     }
 
   }
@@ -170,10 +171,17 @@ section.article-content {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
   .pin-it-callout {
-    float: left;
-    position: relative;
-    margin-left: -75px;
-    margin-top: 22px;
+    @media (min-width: 750px) {
+      float: left;
+      position: relative;
+      margin-left: -75px;
+      margin-top: 22px;
+    }
+    @media (max-width: 750px) {
+      float: right;
+      position: relative;
+      top: 20px;
+    }
   }
 
   h3 {
@@ -201,10 +209,16 @@ section.article-content {
 }
 
 img.wrap-right {
-  float: left;
-  margin-top: 68px;
-  margin-right: 32px;
-  margin-left: -35%;
+  @media (min-width: 1020px) {
+    float: left;
+    margin-top: 68px;
+    margin-right: 32px;
+    margin-left: -35%;
+  }
+  @media (max-width: 1020px) {
+    margin-top: 48px;
+    width: 100%;
+  }
 }
 
 .chartPanel {
