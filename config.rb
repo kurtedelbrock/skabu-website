@@ -12,7 +12,7 @@ page "/feed.xml", :layout => false
 
 activate :blog do |blog|
   blog.sources = "articles/{title}.html"
-  blog.permalink = "{title}.html"
+  blog.permalink = "articles/{title}.html"
 end
 
 activate :directory_indexes
