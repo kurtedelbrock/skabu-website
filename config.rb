@@ -10,10 +10,10 @@ page "/feed.xml", :layout => false
 # Blog
 ###
 
-# activate :blog do |blog|
-#   blog.sources = "articles"
-#   blog.permalink = "{title}.html"
-# end
+activate :blog do |blog|
+  blog.sources = "articles/{title}.html"
+  blog.permalink = "{title}.html"
+end
 
 activate :directory_indexes
 
