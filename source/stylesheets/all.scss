@@ -22,9 +22,12 @@ footer.footer-main {
 }
 
 // Article Styles
+.proven-argan-oil header {
+  @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg"));
+}
+
 body.article header {
   height: 500px;
-  @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg"));
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;

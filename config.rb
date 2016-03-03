@@ -4,15 +4,16 @@ require 'builder'
 # XML Sitemap
 ###
 page "/sitemap.xml", :layout => false
+page "/feed.xml", :layout => false
 
 ###
 # Blog
 ###
 
-activate :blog do |blog|
-  blog.sources = "posts/"
-  blog.permalink = "{title}.html"
-end
+# activate :blog do |blog|
+#   blog.sources = "articles"
+#   blog.permalink = "{title}.html"
+# end
 
 activate :directory_indexes
 
