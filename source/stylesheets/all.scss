@@ -22,6 +22,9 @@ footer.footer-main {
 }
 
 // Article Styles
+.guides-how-rosehip-oil header {
+  @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/rosehip-guides-header.jpg"));
+}
 .proven-argan-oil header {
   @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg"));
 }
