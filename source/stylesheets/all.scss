@@ -29,6 +29,10 @@ footer.footer-main {
   @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg"));
 }
 
+.younger-looking-hair header {
+  @include background-image(linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/younger-looking-hair.jpg"));
+}
+
 body.article header {
   height: 500px;
   background-position: center top;
