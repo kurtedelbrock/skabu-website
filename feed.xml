@@ -162,7 +162,7 @@
   &lt;/h3&gt;
   &lt;p&gt;
     Have extra dry hair? Slather your hair with
-    &lt;a href="http://www.amazon.com/Organic-Conditioner-Skabu-Unscented-Defying/dp/B017HRA2W4"&gt;Skäbu Organic Argan Oil Conditioner&lt;/a&gt;,
+    &lt;a onclick="trackOutboundLink('http://www.amazon.com/Organic-Conditioner-Skabu-Unscented-Defying/dp/B017HRA2W4'); return false;" href="http://www.amazon.com/Organic-Conditioner-Skabu-Unscented-Defying/dp/B017HRA2W4"&gt;Skäbu Organic Argan Oil Conditioner&lt;/a&gt;,
     cover with shower cap and let it sit for 30 minutes. Rinse and repeat weekly for shiny moisturized hair.
   &lt;/p&gt;
 &lt;/div&gt;
@@ -193,7 +193,7 @@
   &lt;/h3&gt;
   &lt;p&gt;
     We all know it’s a pain to buy another bottle of goo and try to remember to do another hair treatment just to get the benefits of argan oil. Adopt using argan oil as part of your beauty routine by switching to an
-    &lt;a href="http://www.amazon.com/gp/product/B017HP90C4/ref=pd_lpo_sbs_dp_ss_2?pf_rd_p=1944687642&amp;amp;pf_rd_s=lpo-top-stripe-1&amp;amp;pf_rd_t=201&amp;amp;pf_rd_i=B017HRA2W4&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_r=0VX6N7CX6BWAEQGBTA33"&gt;organic argan oil shampoo&lt;/a&gt;
+    &lt;a onclick="trackOutboundLink('http://www.amazon.com/gp/product/B017HP90C4/ref=pd_lpo_sbs_dp_ss_2?pf_rd_p=1944687642&amp;amp;pf_rd_s=lpo-top-stripe-1&amp;amp;pf_rd_t=201&amp;amp;pf_rd_i=B017HRA2W4&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_r=0VX6N7CX6BWAEQGBTA33'); return false;" href="http://www.amazon.com/gp/product/B017HP90C4/ref=pd_lpo_sbs_dp_ss_2?pf_rd_p=1944687642&amp;amp;pf_rd_s=lpo-top-stripe-1&amp;amp;pf_rd_t=201&amp;amp;pf_rd_i=B017HRA2W4&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_r=0VX6N7CX6BWAEQGBTA33"&gt;organic argan oil shampoo&lt;/a&gt;
     and conditioner. This saves the extra step of another hair treatment, while gaining the benefits of argan oil regularly.
   &lt;/p&gt;
 &lt;/div&gt;
