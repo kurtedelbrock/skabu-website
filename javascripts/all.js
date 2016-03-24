@@ -10125,4 +10125,8 @@ var trackOutboundLink = function(url) {
 var trackPin = function(name) {
   ga('send', 'social', 'pinterest', 'pin', name);
 }
+
+$('a[data-pin-log="button_pinit_bookmarklet"]').click(function() {
+  ga('send', 'social', 'pinterest', 'pin', document.href);
+})
 ;

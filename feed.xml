@@ -155,7 +155,7 @@
 &lt;/p&gt;
 &lt;div class='callout'&gt;
   &lt;div class='pin-it-callout'&gt;
-    &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/' onclick='trackPin(stylist-callout-argan-1)'&gt;&lt;/a&gt;
+    &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/'&gt;&lt;/a&gt;
   &lt;/div&gt;
   &lt;h3&gt;
     Stylist Tip
@@ -186,7 +186,7 @@
 &lt;/p&gt;
 &lt;div class='callout'&gt;
   &lt;div class='pin-it-callout'&gt;
-    &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/' onclick='trackPin(stylist-callout-argan-2)'&gt;&lt;/a&gt;
+    &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/'&gt;&lt;/a&gt;
   &lt;/div&gt;
   &lt;h3&gt;
     Stylist Tip
@@ -218,7 +218,7 @@
 &lt;/p&gt;
 &lt;div class='callout'&gt;
   &lt;div class='pin-it-callout'&gt;
-    &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/' onclick='trackPin(stylist-callout-argan-3)'&gt;&lt;/a&gt;
+    &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/'&gt;&lt;/a&gt;
   &lt;/div&gt;
   &lt;h3&gt;
     Stylist Tip
