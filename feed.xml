@@ -153,7 +153,12 @@
 &lt;p&gt;
   Argan oil is a natural moisturizer for dry and brittle hair. It heals each strand from the inside to prevent breakage and split ends.
 &lt;/p&gt;
-&lt;div class='callout'&gt;
+&lt;p id='experimental-inline' style='display: none;'&gt;
+  Have extra dry hair? Slather your hair with
+  &lt;a onclick="trackOutboundLink('http://www.amazon.com/Organic-Conditioner-Skabu-Unscented-Defying/dp/B017HRA2W4'); return false;" href="http://www.amazon.com/Organic-Conditioner-Skabu-Unscented-Defying/dp/B017HRA2W4"&gt;Skäbu Organic Argan Oil Conditioner&lt;/a&gt;,
+  cover with shower cap and let it sit for 30 minutes. Rinse and repeat weekly for shiny moisturized hair.
+&lt;/p&gt;
+&lt;div class='callout' id='experimental-callout'&gt;
   &lt;div class='pin-it-callout'&gt;
     &lt;a data-pin-color='red' data-pin-do='buttonBookmark' data-pin-tall='true' href='https://www.pinterest.com/pin/create/button/'&gt;&lt;/a&gt;
   &lt;/div&gt;
