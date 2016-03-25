@@ -28,10 +28,17 @@ var trackOutboundLink = function(url) {
    });
 }
 
-var trackPin = function(name) {
-  ga('send', 'social', 'pinterest', 'pin', name);
-}
+var chosenVariation = cxApi.chooseVariation();
+var pageVariations = [
+  function() { console.log("Original"); },  // Original: Do nothing. This will render the default HTML.
+  function() {    // Variation 1: Banner Image
+    console.log("Experiment");
+    $('#experimental-inline').show();
+    $('#experimental-callout').hide();
+  }
+];
 
-$('a[data-pin-log="button_pinit_bookmarklet"]').click(function() {
-  ga('send', 'social', 'pinterest', 'pin', document.href);
-})
+$(document).ready(
+  // Execute the chosen view
+  pageVariations[chosenVariation]
+);
