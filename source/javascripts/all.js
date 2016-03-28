@@ -5,6 +5,9 @@
 //= require Headhesive.js/src/headhesive
 //= require fluidbox/dist/js/jquery.fluidbox.min
 //= require Chart.js/Chart.min
+//= require components/subscription-popup.js
+
+SubscriptionPopup();
 
 var chosenVariation = cxApi.chooseVariation();
 
@@ -28,6 +31,14 @@ var trackOutboundLink = function(url) {
      'transport': 'beacon',
      'hitCallback': function(){document.location = url;}
    });
+}
+
+var trackEmailPopupConversion = function() {
+  ga('send', 'event', 'popup', 'submit', 'email-subscription');
+}
+
+var displayConfirmation = function() {
+  $("#subscription-popup").html("<p>Thanks for requesting our guide! We're working hard on finishing it, and will end it to you in the next few weeks.");
 }
 
 var pageVariations = [

@@ -1,0 +1,17 @@
+.modal {
+  width: auto;
+  max-width: 800px;
+  background-color: white;
+  position: relative;
+  padding: 40px;
+  margin: 20px auto;
+  display: block;
+  input[type=text] {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  input[type=submit] {
+    font-size: 24px;
+  }
+}

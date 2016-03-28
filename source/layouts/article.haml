@@ -24,6 +24,13 @@
         .container
           = yield
     = partial "footer"
+#subscription-popup.mfp-hide.modal
+  %h1 7 Days to Healthier, Younger Looking Hair
+  %p.lead Find out how with this exclusive day-by-day guide.
+  %form(onSubmit="trackEmailPopupConversion(); displayConfirmation(); return false;")
+    %input(type="text" placeholder="Enter Your Email")
+    %br
+    %input(type="submit" value="Send Me the Guide")
 :javascript
   var ParallaxText = function (options) {
     this.text = options.text;
