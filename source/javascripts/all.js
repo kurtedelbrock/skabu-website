@@ -5,6 +5,7 @@
 //= require Headhesive.js/src/headhesive
 //= require fluidbox/dist/js/jquery.fluidbox.min
 //= require Chart.js/Chart.min
+//= require js-cookie/src/js.cookie.js
 //= require components/subscription-popup.js
 
 SubscriptionPopup();

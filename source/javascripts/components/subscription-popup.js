@@ -36,22 +36,25 @@ SubscriptionPopup = function() {
       });
   }
 
-  OnIdle(20000, function(t) {
-    $.magnificPopup.open({
-      items: {
-        src: '#subscription-popup',
-        type: 'inline',
-      },
-      callbacks: {
-        open: function() {
-          window.onload = undefined;
-          document.onmousemove = undefined;
-          document.onkeypress = undefined;
-          clearTimeout(window.popupTimer);
+  if (Cookies.get('SubscriptionPopupModal') !== "true") {
+    OnIdle(20000, function(t) {
+      $.magnificPopup.open({
+        items: {
+          src: '#subscription-popup',
+          type: 'inline',
+        },
+        callbacks: {
+          open: function() {
+            window.onload = undefined;
+            document.onmousemove = undefined;
+            document.onkeypress = undefined;
+            clearTimeout(window.popupTimer);
+            Cookies.set('SubscriptionPopupModal', 'true', { expires: 7 });
 
-          trackPopupOpen('email-subscription');
+            trackPopupOpen('email-subscription');
+          }
         }
-      }
+      });
     });
-  });
+  }
 };
