@@ -8627,75 +8627,106 @@ img.mfp-img {
   .modal input[type=submit] {
     font-size: 24px; }
 
-/* line 8, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 3, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.blog-container {
+  background-color: rgba(0, 0, 0, 0.05); }
+
+/* line 7, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.blog-article {
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 900px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd; }
+  /* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article p {
+    color: rgba(0, 0, 0, 0.7); }
+  /* line 19, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article h1 {
+    color: rgba(0, 0, 0, 0.8); }
+  /* line 23, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article img {
+    margin: 18px 0px; }
+  /* line 27, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article a:hover {
+    text-decoration: none; }
+    /* line 29, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    .blog-article a:hover p {
+      color: rgba(0, 0, 0, 0.7); }
+  /* line 34, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article a:link {
+    text-decoration: none; }
+
+/* line 9, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .navbar-no-margin {
   margin-bottom: 0; }
 
-/* line 12, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 13, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .jumbotron {
   background-color: white;
   border-bottom: 1px solid #eee; }
 
-/* line 17, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 18, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .jumbotron-omega {
   border-bottom: 0px; }
 
-/* line 21, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 22, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 footer.footer-main {
   border-top: 1px solid #eee;
   padding: 20px 0px; }
 
-/* line 27, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 28, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .guides-how-rosehip-oil header {
   background-image: -webkit-linear-gradient( top , rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/rosehip-guides-header.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/rosehip-guides-header.jpg"); }
 
-/* line 30, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 31, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .proven-argan-oil header {
   background-image: -webkit-linear-gradient( top , rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/argan-oil.jpg"); }
 
-/* line 34, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 35, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .younger-looking-hair header {
   background-image: -webkit-linear-gradient( top , rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/younger-looking-hair.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), transparent 60%), url("/images/articles/headers/younger-looking-hair.jpg"); }
 
-/* line 38, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 39, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 body.article header {
   height: 500px;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 96px; }
-  /* line 45, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 46, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   body.article header .navbar-article {
     background-color: transparent;
     background: transparent;
     border-color: transparent; }
-    /* line 50, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 51, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     body.article header .navbar-article .navbar-right {
       float: right !important; }
-    /* line 54, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 55, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     body.article header .navbar-article .navbar-header {
       float: left !important; }
-    /* line 58, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 59, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     body.article header .navbar-article ul.navbar-nav {
       padding: 0px; }
-    /* line 62, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 63, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     body.article header .navbar-article li.nav-pin {
       padding-top: 13px;
       padding-right: 13px; }
-    /* line 67, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 68, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     body.article header .navbar-article .navbar li a {
       color: #e6e6e6; }
-    /* line 71, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 72, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     body.article header .navbar-article .navbar-brand {
       color: white;
       font-weight: bold; }
-      /* line 74, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+      /* line 75, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
       body.article header .navbar-article .navbar-brand:visited {
         color: white; }
-  /* line 82, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 83, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   body.article header h1 {
     color: white;
     position: relative;
@@ -8704,11 +8735,11 @@ body.article header {
     padding: 20px;
     display: inline-block; }
 
-/* line 92, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 93, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .navbar-subnav {
   display: none; }
 
-/* line 96, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 97, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .headhesive {
   display: block;
   position: fixed;
@@ -8724,7 +8755,7 @@ body.article header {
   -o-transform: translateY(-100%);
   transform: translateY(-100%); }
 
-/* line 106, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 107, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .headhesive--stick {
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
@@ -8732,42 +8763,42 @@ body.article header {
   -o-transform: translateY(0%);
   transform: translateY(0%); }
 
-/* line 111, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 112, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content h2 {
   margin-top: 64px !important;
   margin-bottom: 16px;
   font-weight: 900;
   color: rgba(0, 0, 0, 0.8); }
-/* line 118, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 119, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content h3 {
   margin-top: 48px;
   margin-bottom: 16px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.8); }
-/* line 125, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 126, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content small {
   display: inline-block;
   font-size: 15px;
   line-height: 1.3 !important;
   color: rgba(0, 0, 0, 0.3); }
-/* line 132, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 133, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content p {
   font-size: 18px;
   line-height: 31.5px;
   margin-bottom: 32px;
   color: rgba(0, 0, 0, 0.7); }
-/* line 139, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 140, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content ul {
   margin: 0;
   padding: 20px; }
-/* line 144, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 145, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content li {
   margin-left: 0;
   margin-bottom: 16px;
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   line-height: 31.5px; }
-/* line 155, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 156, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content p:first-child:first-letter {
   font-family: "Arial Black", Gadget, sans-serif;
   float: left;
@@ -8776,90 +8807,90 @@ section.article-content p:first-child:first-letter {
   padding-top: 1px;
   padding-right: 8px;
   padding-left: 3px; }
-/* line 165, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 166, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 section.article-content p:first-child:first-line {
   color: #83aa20;
   font-weight: bolder; }
 
 @media (min-width: 620px) {
-  /* line 173, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 174, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   section.article-content .container {
     width: 620px; } }
 
-/* line 180, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 181, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .callout {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   @media (min-width: 750px) {
-    /* line 185, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 186, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     .callout .pin-it-callout {
       float: left;
       position: relative;
       margin-left: -75px;
       margin-top: 22px; } }
   @media (max-width: 750px) {
-    /* line 185, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 186, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     .callout .pin-it-callout {
       float: right;
       position: relative;
       top: 20px; } }
-  /* line 199, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 200, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   .callout h3 {
     font-weight: 400 !important;
     color: rgba(0, 0, 0, 0.6);
     font-size: 30px;
     margin-bottom: 2px !important;
     margin-top: 16px !important; }
-  /* line 207, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 208, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   .callout p {
     font-size: 30px !important;
     line-height: 45px !important;
     color: #83aa20 !important;
     font-weight: 200 !important; }
-    /* line 208, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 209, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     .callout p a {
       font-weight: 400;
       color: #516a14 !important; }
-    /* line 212, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 213, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     .callout p a:hover {
       color: #83aa20 !important;
       text-decoration: none; }
 
 @media (min-width: 1020px) {
-  /* line 223, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 224, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   img.wrap-right {
     float: left;
     margin-top: 68px;
     margin-right: 32px;
     margin-left: -35%; } }
 @media (max-width: 1020px) {
-  /* line 223, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 224, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   img.wrap-right {
     margin-top: 48px;
     width: 100%; } }
 
-/* line 236, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+/* line 237, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
 .chartPanel {
   clear: both;
   padding-top: 16px; }
-  /* line 240, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 241, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   .chartPanel .chart {
     float: left;
     width: 446px;
     margin-bottom: 32px; }
-  /* line 246, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+  /* line 247, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
   .chartPanel #chartLegend {
     float: right;
     width: 138px;
     height: 310px;
     margin-bottom: 32px; }
-    /* line 251, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 252, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     .chartPanel #chartLegend ul li {
       list-style: none;
       font-size: 16px;
       margin-bottom: 0px; }
-    /* line 256, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
+    /* line 257, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/all.scss */
     .chartPanel #chartLegend ul li span {
       width: 20px;
       height: 20px;

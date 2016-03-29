@@ -1,0 +1,30 @@
+/* line 3, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.blog-container {
+  background-color: rgba(0, 0, 0, 0.05); }
+
+/* line 7, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.blog-article {
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 900px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd; }
+  /* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article p {
+    color: rgba(0, 0, 0, 0.7); }
+  /* line 19, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article h1 {
+    color: rgba(0, 0, 0, 0.8); }
+  /* line 23, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article img {
+    margin: 18px 0px; }
+  /* line 27, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article a:hover {
+    text-decoration: none; }
+    /* line 29, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    .blog-article a:hover p {
+      color: rgba(0, 0, 0, 0.7); }
+  /* line 34, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .blog-article a:link {
+    text-decoration: none; }

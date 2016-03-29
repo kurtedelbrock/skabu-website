@@ -25,6 +25,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://skabuorganics.com/blog.html</loc>
+    <lastmod>2016-03-29T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://skabuorganics.com/conditioner.html</loc>
     <lastmod>2016-03-29T00:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
