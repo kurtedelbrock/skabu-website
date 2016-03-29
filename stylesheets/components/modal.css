@@ -1,0 +1,17 @@
+/* line 1, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/modal.scss */
+.modal {
+  width: auto;
+  max-width: 800px;
+  background-color: white;
+  position: relative;
+  padding: 40px;
+  margin: 20px auto;
+  display: block; }
+  /* line 9, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/modal.scss */
+  .modal input[type=text] {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 20px; }
+  /* line 14, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/modal.scss */
+  .modal input[type=submit] {
+    font-size: 24px; }

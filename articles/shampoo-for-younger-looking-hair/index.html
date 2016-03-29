@@ -142,6 +142,15 @@
     </footer>
   </body>
 </html>
+<div class='mfp-hide modal' id='subscription-popup'>
+  <h1>7 Days to Healthier, Younger Looking Hair</h1>
+  <p class='lead'>Find out how with this exclusive day-by-day guide.</p>
+  <form onSubmit='trackEmailPopupConversion(); SubscriptionPopup.prototype.submitEmail(); displayConfirmation(); return false;'>
+    <input id='subscription-popup-email' placeholder='Enter Your Email' type='text'>
+    <br>
+    <input type='submit' value='Send Me the Guide'>
+  </form>
+</div>
 <script>
   var ParallaxText = function (options) {
     this.text = options.text;
