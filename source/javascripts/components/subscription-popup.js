@@ -20,6 +20,22 @@ SubscriptionPopup = function() {
      ga('send', 'event', 'popup', 'open', name);
   }
 
+  SubscriptionPopup.prototype.submitEmail = function() {
+    email = $('#subscription-popup-email').val();
+    $.ajax({
+      method: "POST",
+      url: "http://skabu-crm.herokuapp.com/users",
+      headers: {
+        accept: 'application/json',
+      },
+      contentType: 'application/json',
+      data: JSON.stringify({ user: { email: email } })
+    })
+      .done(function(data) {
+        console.log(data);
+      });
+  }
+
   OnIdle(20000, function(t) {
     $.magnificPopup.open({
       items: {
