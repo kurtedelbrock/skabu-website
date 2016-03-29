@@ -1,0 +1,38 @@
+$header-text-color: rgba(0, 0, 0, 0.7);
+
+.blog-container {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.blog-article {
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 900px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+
+  p {
+    color: $header-text-color;
+  }
+
+  h1 {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  img {
+    margin: 18px 0px;
+  }
+
+  a:hover {
+    text-decoration: none;
+    p {
+      color: $header-text-color;
+    }
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+}

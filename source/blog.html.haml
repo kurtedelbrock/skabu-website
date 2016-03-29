@@ -1,0 +1,13 @@
+.blog-container
+  &nbsp;
+  - blog.articles.each do |article|
+    %article.blog-article
+      %a{href: article.url}
+        %h1
+          = article.title
+        %img{src: "", width: "100%", height: "150px"}
+        %p.lead
+          = article.data[:lead]
+        %span
+          Read more...
+  &nbsp;
