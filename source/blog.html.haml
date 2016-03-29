@@ -1,3 +1,7 @@
+---
+title: Recent Articles
+---
+
 .blog-container
   &nbsp;
   - blog.articles.each do |article|
@@ -5,7 +9,7 @@
       %a{href: article.url}
         %h1
           = article.title
-        %img{src: "images/articles/thumbs/#{article.data[:cover]}", width: "100%", height: "150px"}
+        %img{src: "/images/articles/thumbs/#{article.data[:cover]}", width: "100%", height: "150px"}
         %p.lead
           = article.data[:lead]
         %span
