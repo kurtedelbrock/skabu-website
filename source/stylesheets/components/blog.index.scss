@@ -1,11 +1,11 @@
 $header-text-color: rgba(0, 0, 0, 0.7);
 
 .related-articles {
-  @extend .row;
+  @extend .row !optional;
   margin-bottom: 32px;
 
   .related-article {
-    @extend .col-lg-4;
+    @extend .col-lg-4 !optional;
     img {
       object-fit: cover;
     }
