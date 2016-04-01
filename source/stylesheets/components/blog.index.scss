@@ -1,5 +1,9 @@
 $header-text-color: rgba(0, 0, 0, 0.7);
 
+.navbar-article-subnav li {
+  font-size: 18px;
+}
+
 .related-articles {
   @extend .row !optional;
   margin-bottom: 32px;
