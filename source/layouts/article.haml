@@ -22,6 +22,13 @@
       = partial "nav/article"
       %section.article-content
         .container
+          %section.related-articles-sidebar
+            - blog.articles.find_all {|article| current_page.data[:related].include? article.data[:headerclass]}.each do |article|
+              .related-article
+                %img{src: "/images/articles/thumbs/#{article.data[:cover]}", width: "100%", height: "150px"}
+                %a{href: article.url}
+                  %h4
+                    = article.title
           = yield
           -# Partialize
           %section.related-articles
