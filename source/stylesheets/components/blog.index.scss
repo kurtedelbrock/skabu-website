@@ -1,5 +1,17 @@
 $header-text-color: rgba(0, 0, 0, 0.7);
 
+.related-articles {
+  @extend .row;
+  margin-bottom: 32px;
+}
+
+.related-article {
+  @extend .col-lg-4;
+  img {
+    object-fit: cover;
+  }
+}
+
 .blog-container {
   background-color: rgba(0, 0, 0, 0.05);
 }
