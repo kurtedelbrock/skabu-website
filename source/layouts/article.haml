@@ -26,7 +26,7 @@
             - blog.articles.find_all {|article| current_page.data[:related].include? article.data[:headerclass]}.each do |article|
               .related-article
                 %img{src: "/images/articles/thumbs/#{article.data[:cover]}", width: "100%", height: "150px"}
-                %a{href: article.url}
+                %a{href: article.url, onclick: "trackSidebarLink('side', '#{article.url}')"}
                   %h4
                     = article.title
           = yield
@@ -35,7 +35,7 @@
             - blog.articles.find_all {|article| current_page.data[:related].include? article.data[:headerclass]}.each do |article|
               .related-article
                 %img{src: "/images/articles/thumbs/#{article.data[:cover]}", width: "100%", height: "150px"}
-                %a{href: article.url}
+                %a{href: article.url, onclick: "trackSidebarLink('bottom', '#{article.url}')"}
                   %h4
                     = article.title
 
