@@ -12195,6 +12195,13 @@ var trackOutboundLink = function(url) {
    });
 }
 
+var trackSidebarLink = function(location, url) {
+   ga('send', 'event', 'related', location, url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+
 var trackEmailPopupConversion = function() {
   ga('send', 'event', 'popup', 'submit', 'email-subscription');
 }

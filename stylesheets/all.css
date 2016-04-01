@@ -2011,12 +2011,12 @@ pre code {
   margin-left: auto; }
 
 /* line 1613, /Users/kedelbrock/Code/Skabu/website/vendor/assets/bower/bootstrap/dist/css/bootstrap.css */
-.row {
+.row, .related-articles {
   margin-right: -15px;
   margin-left: -15px; }
 
 /* line 1617, /Users/kedelbrock/Code/Skabu/website/vendor/assets/bower/bootstrap/dist/css/bootstrap.css */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .related-articles .related-article, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -2648,7 +2648,7 @@ pre code {
     margin-left: 0; } }
 @media (min-width: 1200px) {
   /* line 2096, /Users/kedelbrock/Code/Skabu/website/vendor/assets/bower/bootstrap/dist/css/bootstrap.css */
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .related-articles .related-article, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
 
   /* line 2099, /Users/kedelbrock/Code/Skabu/website/vendor/assets/bower/bootstrap/dist/css/bootstrap.css */
@@ -2684,7 +2684,7 @@ pre code {
     width: 41.66666667%; }
 
   /* line 2123, /Users/kedelbrock/Code/Skabu/website/vendor/assets/bower/bootstrap/dist/css/bootstrap.css */
-  .col-lg-4 {
+  .col-lg-4, .related-articles .related-article {
     width: 33.33333333%; }
 
   /* line 2126, /Users/kedelbrock/Code/Skabu/website/vendor/assets/bower/bootstrap/dist/css/bootstrap.css */
@@ -7747,7 +7747,9 @@ button.close {
 .container-fluid:before,
 .container-fluid:after,
 .row:before,
+.related-articles:before,
 .row:after,
+.related-articles:after,
 .form-horizontal .form-group:before,
 .form-horizontal .form-group:after,
 .btn-toolbar:before,
@@ -7779,6 +7781,7 @@ button.close {
 .container:after,
 .container-fluid:after,
 .row:after,
+.related-articles:after,
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:after,
@@ -8628,10 +8631,35 @@ img.mfp-img {
     font-size: 24px; }
 
 /* line 3, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.related-articles {
+  margin-bottom: 32px; }
+  /* line 9, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .related-articles .related-article img {
+    object-fit: cover; }
+
+/* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.related-articles-sidebar {
+  float: left;
+  width: 250px;
+  margin-left: -298px;
+  margin-top: 10px;
+  display: inline-block; }
+  @media (max-width: 1215px) {
+    /* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    .related-articles-sidebar {
+      display: none; } }
+  /* line 25, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  .related-articles-sidebar .related-article {
+    margin-bottom: 32px; }
+    /* line 27, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    .related-articles-sidebar .related-article img {
+      object-fit: cover; }
+
+/* line 33, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
 .blog-container {
   background-color: rgba(0, 0, 0, 0.05); }
 
-/* line 7, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+/* line 37, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
 .blog-article {
   margin: 20px auto;
   padding: 40px;
@@ -8639,22 +8667,22 @@ img.mfp-img {
   display: block;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #ddd; }
-  /* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 45, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article p {
     color: rgba(0, 0, 0, 0.7); }
-  /* line 19, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 49, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article h1 {
     color: rgba(0, 0, 0, 0.8); }
-  /* line 23, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 53, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article img {
     margin: 18px 0px; }
-  /* line 27, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 57, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article a:hover {
     text-decoration: none; }
-    /* line 29, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    /* line 59, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
     .blog-article a:hover p {
       color: rgba(0, 0, 0, 0.7); }
-  /* line 34, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 64, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article a:link {
     text-decoration: none; }
 
