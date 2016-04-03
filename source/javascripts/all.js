@@ -54,7 +54,7 @@ var pageVariations = [
 
   },  // Original: Do nothing. This will render the default HTML.
   function() {    // Variation 1: Banner Image
-    
+    $('#subscription-popup-teaser').text('Learn the best essential oils to use to solve common hair problems, extreme anti-aging secrets and the top dangerous ingredients to avoid at the drugstore.')
   }
 ];
 
