@@ -8631,13 +8631,17 @@ img.mfp-img {
     font-size: 24px; }
 
 /* line 3, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+.navbar-article-subnav li {
+  font-size: 18px; }
+
+/* line 7, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
 .related-articles {
   margin-bottom: 32px; }
-  /* line 9, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 13, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .related-articles .related-article img {
     object-fit: cover; }
 
-/* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+/* line 19, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
 .related-articles-sidebar {
   float: left;
   width: 250px;
@@ -8645,21 +8649,21 @@ img.mfp-img {
   margin-top: 10px;
   display: inline-block; }
   @media (max-width: 1215px) {
-    /* line 15, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    /* line 19, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
     .related-articles-sidebar {
       display: none; } }
-  /* line 25, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 29, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .related-articles-sidebar .related-article {
     margin-bottom: 32px; }
-    /* line 27, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    /* line 31, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
     .related-articles-sidebar .related-article img {
       object-fit: cover; }
 
-/* line 33, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+/* line 37, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
 .blog-container {
   background-color: rgba(0, 0, 0, 0.05); }
 
-/* line 37, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+/* line 41, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
 .blog-article {
   margin: 20px auto;
   padding: 40px;
@@ -8667,22 +8671,22 @@ img.mfp-img {
   display: block;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #ddd; }
-  /* line 45, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 49, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article p {
     color: rgba(0, 0, 0, 0.7); }
-  /* line 49, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 53, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article h1 {
     color: rgba(0, 0, 0, 0.8); }
-  /* line 53, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 57, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article img {
     margin: 18px 0px; }
-  /* line 57, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 61, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article a:hover {
     text-decoration: none; }
-    /* line 59, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+    /* line 63, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
     .blog-article a:hover p {
       color: rgba(0, 0, 0, 0.7); }
-  /* line 64, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
+  /* line 68, /Users/kedelbrock/Code/Skabu/website/source/stylesheets/components/blog.index.scss */
   .blog-article a:link {
     text-decoration: none; }
 
