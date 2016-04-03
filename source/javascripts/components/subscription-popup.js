@@ -6,6 +6,8 @@ OnIdle = function(time, callback) {
   window.onload = resetTimer;
   document.onmousemove = resetTimer;
   document.onkeypress = resetTimer;
+  document.touchstart = resetTimer;
+  document.touchmove = resetTimer;
 
   function resetTimer() {
     clearTimeout(window.popupTimer);
@@ -48,6 +50,8 @@ SubscriptionPopup = function() {
             window.onload = undefined;
             document.onmousemove = undefined;
             document.onkeypress = undefined;
+            document.touchstart = undefined;
+            document.touchmove = undefined;
             clearTimeout(window.popupTimer);
             Cookies.set('SubscriptionPopupModal', 'true', { expires: 7 });
 
