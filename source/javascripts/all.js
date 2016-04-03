@@ -50,11 +50,11 @@ var displayConfirmation = function() {
 }
 
 var pageVariations = [
-  function() { console.log("Original"); },  // Original: Do nothing. This will render the default HTML.
+  function() {
+
+  },  // Original: Do nothing. This will render the default HTML.
   function() {    // Variation 1: Banner Image
-    console.log("Experiment");
-    $('#experimental-inline').show();
-    $('#experimental-callout').hide();
+    
   }
 ];
 
