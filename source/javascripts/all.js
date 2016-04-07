@@ -46,7 +46,7 @@ var trackEmailPopupConversion = function() {
 }
 
 var displayConfirmation = function() {
-  $("#subscription-popup").html("<p>Thanks for requesting our guide! We're working hard on finishing it, and will end it to you in the next few weeks.");
+  $("#subscription-popup").html("<p>Thanks for requesting our guide! We're working hard on finishing it, and will send it to you in the next few weeks.");
 }
 
 var pageVariations = [

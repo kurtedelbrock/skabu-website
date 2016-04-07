@@ -24,6 +24,7 @@ SubscriptionPopup = function() {
 
   SubscriptionPopup.prototype.submitEmail = function() {
     email = $('#subscription-popup-email').val();
+    $('body').append('<img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/?tid=uO5ms9u0FHO&value=0.00&quantity=1"/>');
     $.ajax({
       method: "POST",
       url: "http://skabu-crm.herokuapp.com/users",
