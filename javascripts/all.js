@@ -11717,6 +11717,7 @@ SubscriptionPopup = function() {
 
   SubscriptionPopup.prototype.submitEmail = function() {
     email = $('#subscription-popup-email').val();
+    $('body').append('<img height="1" width="1" style="display:none;" alt="" src="https://ct.pinterest.com/?tid=uO5ms9u0FHO&value=0.00&quantity=1"/>');
     $.ajax({
       method: "POST",
       url: "http://skabu-crm.herokuapp.com/users",
@@ -12211,7 +12212,7 @@ var trackEmailPopupConversion = function() {
 }
 
 var displayConfirmation = function() {
-  $("#subscription-popup").html("<p>Thanks for requesting our guide! We're working hard on finishing it, and will end it to you in the next few weeks.");
+  $("#subscription-popup").html("<p>Thanks for requesting our guide! We're working hard on finishing it, and will send it to you in the next few weeks.");
 }
 
 var pageVariations = [
